@@ -1,0 +1,13 @@
+version: '3.6'
+services:
+  fe:
+    image: maslow123/books-client:latest
+    build:
+      context: .
+      dockerfile: docker/fe/Dockerfile
+    container_name: fe
+    ports:
+     - 80:80  
+networks:
+  books:
+    driver: bridge
