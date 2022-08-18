@@ -14,7 +14,7 @@
     $ docker ps
     CONTAINER ID   IMAGE                           COMMAND                  CREATED          STATUS          PORTS                    NAMES
     6f3b0a9fa012   maslow123/books-api:latest      "docker-entrypoint.s…"   16 seconds ago   Up 15 seconds   0.0.0.0:8080->8080/tcp   book-service_api_1
-    74356b486479   maslow123/books-client:latest   "docker-entrypoint.s…"   43 seconds ago   Up 40 seconds   0.0.0.0:3000->3000/tcp       fe
+    74356b486479   maslow123/books-client:latest   "docker-entrypoint.s…"   43 seconds ago   Up 40 seconds   0.0.0.0:3000->80/tcp       fe
     ```
 - Open your browser, and hit url http://localhost:3000
 - Finish
