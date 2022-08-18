@@ -3,8 +3,8 @@
 - [Make](https://community.chocolatey.org/packages/make)
 
 ## How to run the application?
-- Clone this repository and book-service repository
-- Make sure the service is running (view README.md on book-service repository to run it)
+- Clone this repository and [book-service](github.com/maslow123/book-service) repository
+- Make sure the service is running (view README.md on [book-service](github.com/maslow123/book-service) repository to run it)
 - Open your terminal / cmd, and type the command on below:
     ```
     make runapp
