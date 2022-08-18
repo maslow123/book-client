@@ -7,7 +7,7 @@ services:
       dockerfile: docker/fe/Dockerfile
     container_name: fe
     ports:
-     - 3000:3000  
+     - 3000:80  
 networks:
   books:
     driver: bridge
